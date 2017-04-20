@@ -22,7 +22,7 @@ public class Taskbar
         get
         {
             return FindWindow("Shell_TrayWnd", "");
-        }
+        } 
     }
 
     protected static int HandleOfStartButton
